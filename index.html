@@ -11,6 +11,75 @@
 </head>
 
 <body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">Quiz</h2>
+        </div>
+    </div>
+
+    <!-- quiz section -->
+
+    <div class="quiz py-4 bg-warning">
+        <div class="container">
+            <h2 class="my-5 text-black fw-bolder">Frågor...</h2>
+
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal text-black fw-bolder">1. När släpptes JavaScript?</p>
+                    <div class="form-check my-2 text-black-50 fw-bolder">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label">1990</label>
+                    </div>
+                    <div class="form-check my-2 text-black-50 fw-bolder">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">1995</label>
+                    </div>
+                    <div class="form-check my-2 text-black-50 fw-bolder">
+                        <input type="radio" name="q1" value="C">
+                        <label class="form-check-label">2200</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal text-black fw-bolder">2. Vad står DOM för i JavaScript? </p>
+                    <div class="form-check my-2 text-black-50 fw-bolder">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="form-check-label">Document Object Model</label>
+                    </div>
+                    <div class="form-check my-2 text-black-50 fw-bolder">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">Documention Objection Module</label>
+                    </div>
+                    <div class="form-check my-2 text-black-50 fw-bolder">
+                        <input type="radio" name="q2" value="C">
+                        <label class="form-check-label">Document Obstruction Modal</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal text-black fw-bolder">3. Det finns en array-metod som kallas för sort. Hur kommer den att sortera vår array?
+                        <br> Exempel: const myArray = ['Volvo', 'Häst', 'Bertil' 'Anders'];
+                        <br> MyArray.sort();
+                        <div class="form-check my-2 text-black-50 fw-bolder">
+                            <input type="radio" name="q3" value="A" checked>
+                            <label class="form-check-label">Slumpmässigt</label>
+                        </div>
+                        <div class="form-check my-2 text-black-50 fw-bolder">
+                            <input type="radio" name="q3" value="B">
+                            <label class="form-check-label">Bakåtvänd ordning</label>
+                        </div>
+                        <div class="form-check my-2 text-black-50 fw-bolder">
+                            <input type="radio" name="q3" value="C">
+                            <label class="form-check-label">Alfabetisk ordning</label>
+                        </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
