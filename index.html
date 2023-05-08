@@ -26,7 +26,7 @@
     <!-- result section -->
     <div class="result py-4 d-none bg-light text-center">
         <div class="container lead">
-            <p class="display-4 p-3 fw-bolder">Du fick <span>0</span> / 4 rätt!</p>
+            <p class="display-4 p-3 fw-bolder">Du fick <span>0</span> / 5 rätt!</p>
             <button class="restart">Starta om</button>
         </div>
     </div>
@@ -41,7 +41,7 @@
                 <div class="my-5">
                     <p class="lead font-weight-normal text-black fw-bolder">1. När släpptes JavaScript?</p>
                     <div class="form-check my-2 text-black-50 fw-bolder">
-                        <input type="radio" name="q1" value="A" checked>
+                        <input id="question" type="radio" name="q1" value="A">
                         <label class="form-check-label">1990</label>
                     </div>
                     <div class="form-check my-2 text-black-50 fw-bolder">
@@ -57,7 +57,7 @@
                 <div class="my-5">
                     <p class="lead font-weight-normal text-black fw-bolder">2. Vad står DOM för i JavaScript? </p>
                     <div class="form-check my-2 text-black-50 fw-bolder">
-                        <input type="radio" name="q2" value="A" checked>
+                        <input type="radio" name="q2" value="A">
                         <label class="form-check-label">Document Object Model</label>
                     </div>
                     <div class="form-check my-2 text-black-50 fw-bolder">
@@ -75,7 +75,7 @@
                         <br> Exempel: const myArray = ['Volvo', 'Häst', 'Bertil' 'Anders'];
                         <br> MyArray.sort();
                         <div class="form-check my-2 text-black-50 fw-bolder">
-                            <input type="radio" name="q3" value="A" checked>
+                            <input type="radio" name="q3" value="A">
                             <label class="form-check-label">Slumpmässigt</label>
                         </div>
                         <div class="form-check my-2 text-black-50 fw-bolder">
@@ -91,7 +91,7 @@
                 <div class="my-5">
                     <p class="lead font-weight-normal text-black fw-bolder">4. Vilket språk körs i webbläsaren?
                         <div class="form-check my-2 text-black-50 fw-bolder">
-                            <input type="radio" name="q4" value="A" checked>
+                            <input type="radio" name="q4" value="A">
                             <label class="form-check-label">Java</label>
                         </div>
                         <div class="form-check my-2 text-black-50 fw-bolder">
@@ -101,6 +101,22 @@
                         <div class="form-check my-2 text-black-50 fw-bolder">
                             <input type="radio" name="q4" value="C">
                             <label class="form-check-label">JavaScript</label>
+                        </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal text-black fw-bolder">5. Vilket event körs när användaren klickar på ett HTML element?
+                        <div class="form-check my-2 text-black-50 fw-bolder">
+                            <input type="radio" name="q5" value="A">
+                            <label class="form-check-label">onmouseclick</label>
+                        </div>
+                        <div class="form-check my-2 text-black-50 fw-bolder">
+                            <input type="radio" name="q5" value="B">
+                            <label class="form-check-label">onclick</label>
+                        </div>
+                        <div class="form-check my-2 text-black-50 fw-bolder">
+                            <input type="radio" name="q5" value="C">
+                            <label class="form-check-label">onchange</label>
                         </div>
                 </div>
                 <div class="text-center">
