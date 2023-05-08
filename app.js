@@ -43,8 +43,9 @@ form.addEventListener('submit', e => {
 
     restart.addEventListener('click', () => {
         result.classList.add('style', 'd-none');
+        clearRadioButtons();
+
     });
 
-    clearRadioButtons();
 
 });
